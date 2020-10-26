@@ -1,8 +1,10 @@
 import React from "react";
-import Shape from "./shape";
-import Circle from "./circle";
+const Shape = require("./shape");
+const Circle = require("./circle");
 
-export class App extends React.Component {
+module.export = class App extends React.Component {
+  constructor() {}
+
   render() {
     return (
       <div>
@@ -11,4 +13,4 @@ export class App extends React.Component {
       </div>
     );
   }
-}
+};

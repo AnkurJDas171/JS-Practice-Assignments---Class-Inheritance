@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export class Shape extends React.component{
+module.export = class Shape extends React.component{
 
   constructor(props){
     super(props);
@@ -9,8 +9,8 @@ export class Shape extends React.component{
 
   }
   //methods drawShape, calculateArea
-  this.drawShape = function(){};
-  this.calculateArea = function(){};
+  drawShape = function(){};
+  calculateArea = function(){};
 
   render(){
 

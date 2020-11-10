@@ -2,7 +2,7 @@ import React from "react";
 const Shape = require("./shape");
 // import { render } from "enzyme";
 
-class Circle extends Shape {
+module.exports = class Circle extends Shape {
   constructor() {
     super();
   }
@@ -16,7 +16,6 @@ class Circle extends Shape {
   }
 }
 
-module.exports = { Circle };
 
 // import using require
 

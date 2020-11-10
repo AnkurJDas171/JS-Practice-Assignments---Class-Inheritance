@@ -19,7 +19,7 @@ class Circle extends Shape{
 
 }
 
-module.export = {Circle};
+module.exports = {Circle};
 
 
 // import using require

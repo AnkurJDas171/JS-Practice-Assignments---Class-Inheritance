@@ -8,8 +8,8 @@ class Shape extends React.component{
 
   }
   //methods drawShape, calculateArea
-  drawShape = function(){};
-  calculateArea = function(){};
+  drawShape(){};
+  calculateArea(){};
 
   render(){
 

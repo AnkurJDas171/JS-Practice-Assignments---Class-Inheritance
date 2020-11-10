@@ -1,14 +1,12 @@
 import React from "react";
 const Shape = require("./shape");
-import { render } from "enzyme";
+// import { render } from "enzyme";
 
 
-module.export = class Circle extends Shape{
+class Circle extends Shape{
 
   constructor(color){
-
     super(color);
-
   }
 
   calculateArea = function(){};
@@ -20,6 +18,8 @@ module.export = class Circle extends Shape{
   }
 
 }
+
+module.export = {Circle};
 
 
 // import using require

@@ -1,7 +1,6 @@
 import React from "react";
 
-
-module.export = class Shape extends React.component{
+class Shape extends React.component{
 
   constructor(props){
     super(props);
@@ -19,6 +18,8 @@ module.export = class Shape extends React.component{
   }
 
 }
+
+module.exports = {Shape};
 
 
 // declare class

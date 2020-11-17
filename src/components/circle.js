@@ -5,17 +5,17 @@ const Shape = require("./shape");
 module.exports = class Circle extends Shape {
   constructor() {
     super();
+    this.calculateArea = this.calculateArea.bind(this);
   }
 
-  calculateArea(){
+  calculateArea() {
     super.calculateArea();
-  };
+  }
 
   render() {
     return;
   }
-}
-
+};
 
 // import using require
 

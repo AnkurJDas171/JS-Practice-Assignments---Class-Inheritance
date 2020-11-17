@@ -2,21 +2,22 @@ import React from "react";
 const Shape = require("./shape");
 // import { render } from "enzyme";
 
-module.exports = class Circle extends Shape {
-  constructor() {
-    super();
-    this.calculateArea = this.calculateArea.bind(this);
+class Circle extends Shape {
+  constructor(props) {
+    super(props);
+    //this.calculateArea = this.calculateArea.bind(this);
   }
 
-  calculateArea() {
-    super.calculateArea();
-  }
+  calculateArea = function () {
+    //super.calculateArea();
+  };
 
   render() {
     return;
   }
-};
+}
 
+module.exports = Circle;
 // import using require
 
 // declare class

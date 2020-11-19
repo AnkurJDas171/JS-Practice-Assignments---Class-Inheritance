@@ -3,8 +3,8 @@ const Shape = require("./shape");
 // import { render } from "enzyme";
 
 class Circle extends Shape {
-  constructor(props) {
-    super(props);
+  constructor(color) {
+    super(color); 
   }
 
   calculateArea() {}; 

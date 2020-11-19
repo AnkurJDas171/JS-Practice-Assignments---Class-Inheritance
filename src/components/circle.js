@@ -4,14 +4,14 @@ const Shape = require("./shape");
 
 class Circle extends Shape {
   constructor(color) {
-    super(color); 
+    super(color);
   }
 
-  calculateArea() {}; 
+  calculateArea() {}
 
-  render() {
-    return<></ >;
-  }
+  // render() {
+  //   return<></ >;
+  // }
 }
 
 module.exports = Circle;

@@ -6,15 +6,13 @@ module.exports = class Shape extends React.component {
   constructor(color) {
     super();
     this.color = color;
-    // this.drawShape = this.drawShape.bind(this);
-    // this.calculateArea = this.calculateArea.bind(this);
   }
   //methods drawShape, calculateArea
-  drawShape = function () {};
-  calculateArea = function () {};
+  drawShape () {};
+  calculateArea () {};
 
   render() {
-    return;
+    return<></ >;
   }
 };
 

@@ -5,15 +5,12 @@ const Shape = require("./shape");
 class Circle extends Shape {
   constructor(props) {
     super(props);
-    //this.calculateArea = this.calculateArea.bind(this);
   }
 
-  calculateArea = function () {
-    //super.calculateArea();
-  };
+  calculateArea() {}; 
 
   render() {
-    return;
+    return<></ >;
   }
 }
 
